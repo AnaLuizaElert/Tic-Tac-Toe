@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/samsung-galaxy-book-pro-stock-dark-background-teal-3840x2160-7564.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,61 @@
+#game{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons{
+    width: 30vw;
+    height: 46.5vh;
+    margin: 15vh 20vw ;
+}
+
+#jogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.inputs{
+    box-sizing: border-box;
+    height: 15.5vh;
+    width: 8vw;
+    background-color: transparent;
+    border: solid 5px rgb(183, 184, 185);
+}
+
+.inputs:hover{
+    background-color: rgba(39, 93, 146, 0.582);
+}
+
+.inputs input{
+    height: 100%;
+    width: 100%;
+    font-size: 6rem;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+#feedback{
+    color: aliceblue;
+    border: solid 2px rgb(255, 255, 255);
+    margin-top: 8vh;
+    margin-left: 2vw;
+    height: 68vh;
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#title{
+    background-color: rgb(39, 93, 146);
+    height: 6vh;
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+#title p{
+    margin-top: 2vh;
+}

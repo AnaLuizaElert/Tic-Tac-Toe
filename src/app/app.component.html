@@ -1,0 +1,23 @@
+<app-header (startGameVar)="startGame()" (endGameVar)="endGame()"></app-header>
+<div id="game">
+  <div id="feedback">
+    <div id="title">
+      <p>FEEDBACK</p>
+    </div>
+    <pre><p>{{text}}</p></pre>
+  </div>
+  <div class="buttons">
+    <div id="jogo">
+      <div class="inputs"><input type="button" (click)= "valor('1')" value="{{this.value1}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('2')" value="{{this.value2}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('3')" value="{{this.value3}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('4')" value="{{this.value4}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('5')" value="{{this.value5}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('6')" value="{{this.value6}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('7')" value="{{this.value7}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('8')" value="{{this.value8}}"></div>
+      <div class="inputs"><input type="button" (click)= "valor('9')" value="{{this.value9}}"></div>
+    </div>
+</div>
+
+

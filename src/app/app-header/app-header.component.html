@@ -1,0 +1,20 @@
+<div class="navBar">
+  <div id="start">
+    <button (click)="startGame()">Começar o jogo</button>
+  </div>
+  <div id="placar">
+    <table>
+      <tr>
+        <td>Jogador 1</td>
+        <td>Jogador 2</td>
+      </tr>
+      <tr>
+        <td (change)="0" [innerText]="jogador1()"></td>
+        <td (change)="0" [innerText]="jogador2()"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="end" (click)="endGame()">
+    <button>Terminar o jogo</button>
+  </div>
+</div>
