@@ -33,9 +33,10 @@
 .inputs input{
     height: 100%;
     width: 100%;
-    font-size: 6rem;
+    font-size: 14rem;
     background-color: transparent;
     border: 0px solid transparent;
+    animation: bounce 1s infinite alternate;
 }
 
 #feedback{
@@ -43,6 +44,7 @@
     border: solid 2px rgb(255, 255, 255);
     margin-top: 8vh;
     margin-left: 2vw;
+    font-size: 2rem;
     height: 68vh;
     width: 24vw;
     display: flex;

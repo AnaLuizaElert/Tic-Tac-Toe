@@ -19,6 +19,7 @@
     color: white;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
 }
 
 #start button:hover, #end button:hover{
@@ -28,7 +29,7 @@
 #placar {
     margin-top: 3vh;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 3rem;
 }
 
 #placar table{
